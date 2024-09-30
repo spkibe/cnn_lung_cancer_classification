@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load the trained model
-model = load_model("/home/spkibe/Documents/cnn_models/chest_cancer/chest_model.keras")
+model = load_model("chest_model.keras")
 
 # Function to preprocess the image
 def preprocess_image(image):
